@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Roboto, sans-serif;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.hidden {
+    color: #FFFFFF;
+}
+
+.hidden:hover,
+.hidden:active {
+    color: #000000;
+}
+
+.input-area {
+    height: 84px;
+
+    margin-bottom: 48px;
+    padding-left: 17px;
+
+    font-size: 30px;
+    line-height: 35px;
+    background: #F0F0F0;
+    color: #B4B4B4;
+    border: none;
+}
+
+.btn {
+    height: 86px;
+
+    background: #AFE895;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.login-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.container {
+    width: 442px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title {
+    margin-bottom: 22px;
+
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 66px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.warning-message {
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    font-size: 21px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 62px;
+    margin-right: 85px;
+}
+
+.user-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+
+    text-decoration: none;
+}
+
+.user-logout {
+    color: #000000;
+}
+
+.shortener-block {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.shortener-block .container {
+    width: 562px;
+    display: flex;
+    flex-direction: column;
+}
+
+.full-url-area {
+    margin: 0 60px;
+    margin-bottom: 26px;
+
+}
+
+.cut-url-btn {
+    margin: 0 60px;
+    margin-bottom: 86px;
+}
+
+.shortener-results {
+    width: 562px;
+    margin: auto;
+}
+
+th {
+    padding-bottom: 17px;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+}
+
+td {
+    padding-bottom: 17px;
+
+    font-size: 18px;
+    line-height: 21px;
+
+    text-decoration: underline;
+}
+
+td a {
+    color: #000000;
+}
+
+td:nth-of-type(4n) {
+    text-decoration: none;
+}
+
+.copy-btn {
+    font-size: 18px;
+    line-height: 21px;
+
+    text-decoration: underline;
+
+    cursor: pointer;
+}
